@@ -1,10 +1,19 @@
-body {
+* {
+    box-sizing: border-box;
     margin: 0;
 }
 
 div {
     font-family: 'Open Sans';
-    padding-left: 40px;
+    padding: 20px;
+}
+
+.adoption {
+    padding-left: 70px;
+}
+
+.main {
+    padding-left: 35px;
 }
 
 .header {
