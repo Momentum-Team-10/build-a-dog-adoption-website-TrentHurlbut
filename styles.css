@@ -2,6 +2,11 @@ body {
     margin: 0;
 }
 
+div {
+    font-family: 'Open Sans';
+    padding-left: 40px;
+}
+
 .header {
     background-color: #004175;
     font-family: 'Open Sans';
