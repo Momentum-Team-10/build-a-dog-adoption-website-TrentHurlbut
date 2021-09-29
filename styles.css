@@ -8,22 +8,26 @@ div {
     padding: 20px;
 }
 
+h2 {
+    font-size: 175%;
+}
+
 .adoption {
-    padding-left: 70px;
+    padding-left: 65px;
 }
 
 .main {
-    padding-left: 35px;
+    padding-left: 30px;
     font-family: 'Oswald', sans-serif;
 }
 
 .header {
     background-color: #004175;
     font-family: 'Open Sans';
-    font-weight: 1000 !important;
-    font-size: 20px;
-    padding: 25px;
-    padding-left: 70px;
+    font-weight: 900 !important;
+    font-size: 18px;
+    padding: 30px;
+    padding-left: 65px;
     border-bottom: 5px solid #89deef;
     color: white;
 }
