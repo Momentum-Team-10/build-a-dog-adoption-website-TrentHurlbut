@@ -92,6 +92,7 @@ div.profile h1 {
 
 .footer {
     display: flex;
+    padding: 0px;
 }
 
 .lav {
@@ -99,8 +100,10 @@ div.profile h1 {
 }
 
 .center {
-    align-items: center;
-    height: fit-content;
+    display: flex;
+}
+
+.center p {
     color: white;
     font: 'Oswald';
 }
@@ -127,4 +130,9 @@ div.profile h1 {
             rgba(166, 169, 240, 0.54)
         ),
         url(./starter_files/images/location.png);
+}
+
+.lav {
+    height: 300px;
+    padding: 0px;
 }
