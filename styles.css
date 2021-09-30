@@ -16,7 +16,8 @@ h2 {
     padding-left: 65px;
 }
 
-.main {
+.main,
+.profile {
     padding-left: 30px;
     font-family: 'Oswald', sans-serif;
 }
@@ -34,4 +35,17 @@ h2 {
 
 .pup {
     width: 300px;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+ul.qualities li {
+    display: inline;
+    list-style-type: none;
+    background-color: #89deef;
+    padding: 5px;
+    margin: 5px;
 }
