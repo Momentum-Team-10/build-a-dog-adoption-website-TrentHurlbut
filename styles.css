@@ -89,3 +89,7 @@ div.profile h1 {
 .adoption p {
     font-size: 115%;
 }
+
+.footer {
+    display: flex;
+}
