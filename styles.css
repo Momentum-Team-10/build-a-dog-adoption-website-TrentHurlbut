@@ -93,3 +93,38 @@ div.profile h1 {
 .footer {
     display: flex;
 }
+
+.lav {
+    flex: 1 1 auto;
+}
+
+.center {
+    align-items: center;
+    height: fit-content;
+    color: white;
+    font: 'Oswald';
+}
+
+#donate {
+    background: linear-gradient(
+            rgba(166, 169, 240, 0.54),
+            rgba(166, 169, 240, 0.54)
+        ),
+        url(./starter_files/images/donate.jpg);
+}
+
+#volunteer {
+    background: linear-gradient(
+            rgba(166, 169, 240, 0.54),
+            rgba(1166, 169, 240, 0.54)
+        ),
+        url(./starter_files/images/volunteer.jpg);
+}
+
+#loc {
+    background: linear-gradient(
+            rgba(166, 169, 240, 0.54),
+            rgba(166, 169, 240, 0.54)
+        ),
+        url(./starter_files/images/location.png);
+}
