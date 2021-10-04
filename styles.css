@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+div {
+    font-family: 'Open Sans';
+    padding: 20px;
+}
+
+h2 {
+    font-size: 175%;
+}
+
+.adoption {
+    padding-left: 65px;
+    padding-bottom: 10px;
+}
+
+.main,
+.profile {
+    padding-left: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.header {
+    background-color: #004175;
+    font-family: 'Open Sans';
+    font-weight: 900 !important;
+    font-size: 18px;
+    padding: 30px;
+    padding-left: 65px;
+    border-bottom: 4px solid #89deef;
+    color: white;
+}
+
+.pup {
+    width: 395px;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 57px;
+    margin-right: 150px;
+    padding: 0px;
+}
+
+ul.qualities li {
+    font-family: 'Open Sans';
+    display: inline;
+    list-style-type: none;
+    font-size: 85%;
+    border-radius: 10px;
+    background-color: #89deef;
+    padding: 4px;
+    margin: 4px;
+    margin-left: 0px;
+}
+
+div.profile h1 {
+    font-size: 115%;
+}
+
+.qualities {
+    display: flex;
+    flex-wrap: wrap;
+    width: 395px;
+    align-items: flex-start;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+.profile {
+    margin: 4px;
+    padding: 0px;
+    margin-bottom: 60px;
+}
+
+#special-lady {
+    width: 372px;
+}
+
+.adoption h2 {
+    font-size: 200%;
+}
+
+.adoption p {
+    font-size: 115%;
+}
+
+.footer {
+    display: flex;
+    padding: 0px;
+}
+
+.lav {
+    display: flex;
+    justify-content: center;
+    flex: 1 1 auto;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+}
+
+.center p {
+    justify-content: center;
+    font-size: 250%;
+    font-weight: 400;
+    color: white;
+    font-family: 'Oswald';
+}
+
+#donate {
+    background: linear-gradient(
+            rgba(166, 169, 240, 0.54),
+            rgba(166, 169, 240, 0.54)
+        ),
+        url(./starter_files/images/donate.jpg);
+    background-position: center;
+    background-size: 130%;
+    width: 33%;
+}
+
+#volunteer {
+    background: linear-gradient(
+            rgba(166, 169, 240, 0.54),
+            rgba(1166, 169, 240, 0.54)
+        ),
+        url(./starter_files/images/volunteer.jpg);
+    width: 33%;
+}
+
+#loc {
+    background: linear-gradient(
+            rgba(166, 169, 240, 0.54),
+            rgba(166, 169, 240, 0.54)
+        ),
+        url(./starter_files/images/location.png);
+    width: 33%;
+}
+
+.lav {
+    height: 300px;
+    padding: 0px;
+}
